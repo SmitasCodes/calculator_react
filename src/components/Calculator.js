@@ -1,14 +1,12 @@
-import Buttons from './Buttons';
-import Operators from './Operators'
-import InputDisplay from './InputDisplay'
-import './Calculator.css'
+import {Buttons} from "./Buttons";
+import InputDisplay from "./InputDisplay";
+import "./Calculator.css";
 
 const Calculator = () => {
   return (
     <div className="calculator">
-      <InputDisplay></InputDisplay>
-      <Buttons></Buttons>
-      <Operators></Operators>
+      <InputDisplay/>
+      <Buttons/>
     </div>
   );
 };

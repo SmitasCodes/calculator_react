@@ -1,10 +1,11 @@
 import './Buttons.css'
 import addValues from './utils/addValues.js'
 
-const Buttons = () => {
-  const ButtonsArr = [
-    'C','√','×2','7','8','9','4','5','6','1','2','3','±','0','.'
-  ];
+export const ButtonsArr = [
+  'C','√','×2','/','7','8','9','*','4','5','6','-','1','2','3','+','±','0','.','='
+];
+
+export const Buttons = () => {
 
   return (
     <div className="buttonsArea">
@@ -15,4 +16,3 @@ const Buttons = () => {
   );
 };
 
-export default Buttons;

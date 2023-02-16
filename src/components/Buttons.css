@@ -1,8 +1,8 @@
 .buttonsArea {
   grid-row: 2 / span 4;
-  grid-column: 1 / span 4;
+  grid-column: 1 / span 5;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3,1fr) 0.75fr;
   grid-gap: 3px;
 }
 
@@ -12,6 +12,10 @@
     background-color: #537FE7;
     border:none;
     font-size: 20px;
+}
+
+.buttonsArea > button:nth-child(4n) {
+  background-color: #C0EEF2;
 }
 
 

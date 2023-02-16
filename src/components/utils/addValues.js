@@ -2,6 +2,7 @@ import InputDisplay from "../InputDisplay";
 
 const addValues = (values) => {
   let Input = document.querySelector(".inputDisplayArea_input");
+  const operators = ['/','*','+','-']
   switch (values) {
     case "C":
       Input.value = "";
@@ -14,8 +15,9 @@ const addValues = (values) => {
       let square = Math.pow(Input.value,2);
       Input.value = square;
       break;
-    case '÷':
+    case '/':
       
+      break;
     default:
       Input.value += values;
       break;
